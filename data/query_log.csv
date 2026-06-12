@@ -1,0 +1,8 @@
+Query_ID,Category,Form,Issue,Status
+LINK001,Linkage,Neonatal Registration,CUB002B linked to CUB001,Open
+LINK002,Linkage,Neonatal Registration,CUB001B linked to CUB003,Open
+LINK003,Linkage,Neonatal Registration,MITI024B linked to MITIP24,Open
+DUP001,Duplicate,Daily Form,LWI009 duplicate baseline Daily Form,Open
+DUP002,Duplicate,Presentation Form,WNG008 duplicate participant ID,Open
+PID001,Participant ID,Master Dataset,MITIO23 corrected to MITI023,Resolved
+PID002,Participant ID,Master Dataset,LWIO30 corrected to LWI030,Resolved

@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+dashboard_env/
+.venv/
+*.env
+backend/.env
+
+# Node / Next.js
+node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env.local
+
+# OS
+.DS_Store

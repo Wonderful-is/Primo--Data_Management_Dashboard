@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f4f6fa;
+  color: #0b2545;
+}
+
+.kpi-card {
+  background: white;
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 3px rgba(11, 37, 69, 0.08);
+  padding: 1rem;
+}
+
+.kpi-title {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #6b7a90;
+  margin-bottom: 0.25rem;
+}
+
+.kpi-value {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #0b2545;
+}
+
+.chart-card {
+  background: white;
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 3px rgba(11, 37, 69, 0.08);
+  padding: 1rem;
+}
+
+.chart-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #0b2545;
+  margin-bottom: 0.5rem;
+}
+
+table.data-table {
+  width: 100%;
+  font-size: 0.8rem;
+  border-collapse: collapse;
+}
+
+table.data-table th {
+  background-color: #0b2545;
+  color: white;
+  font-weight: 600;
+  padding: 6px 8px;
+  text-align: left;
+  position: sticky;
+  top: 0;
+}
+
+table.data-table td {
+  padding: 6px 8px;
+  border-bottom: 1px solid #e5e9f2;
+  white-space: nowrap;
+}
+
+table.data-table tr:nth-child(even) {
+  background-color: #f8fafc;
+}
+
+.status-missing {
+  color: #b91c1c;
+  font-weight: 700;
+}
+
+.status-completed {
+  color: #047857;
+  font-weight: 700;
+}
